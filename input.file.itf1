@@ -1,0 +1,36 @@
+# Test input file taken from Vardavas and Cannon Tech Memo 26.
+# A simple computer for terrestrial and solar radiation transfer
+S0   =  1367.  = Solar constant (W/m2)
+Mu   =  0.5    = Daily mean cosine of SZA
+Day  =  0.5    = Daylength in days
+Rg   =  0.13   = Ground albedo
+Eg   =  1.00   = Ground IR emissivity
+Pg   =  1000.  = Ground atmospheric pressure (hPa)
+Gam  =  6.5    = Lapse rate (K/km)
+Pt   =  200.   = Pressure of tropopause (hPa)
+Ac   =  0.54   = Fractional cloud cover
+CO2  =  0.54   = Total atmospheric CO2 amount (gm/cm2)
+H2O  =  2.17   = Total atmospheric H2O amount (gm/cm2)
+O3   =  0.31   = Total atmospheric O3 amount (gm/cm2)
+CH4  =  0.0009 = Total atmospheric CH4 amount (gm/cm2)
+rh0  =  0.77   = Relative humidity at the surface
+Pcl  =  0.76   = \
+Pcm  =  0.56   =  -- Pressure height at cloud top 
+Pch  =  0.20   = /
+Dpcl =  100.   = \
+Ppcm =  50.    =  -- Cloud thickness in hPa
+Dpch =  70.    = /
+Tcl  =  20.0   = \
+Tcm  =  15.0   =  -- Cloud optical depth to solar radiation
+Tch  =  2.0    = /
+Tal  =  0.     = \
+Tam  =  0.     =  -- Cloud absorption of solar radiation is ignored
+Tach =  0.     = /
+Ecl  =  1.0    = \
+Ecm  =  1.0    =  -- Cloud emissitivity in IR
+Ech  =  0.3    = /
+Fri  =  0.34   = \
+Frm  =  0.28   =  -- Cloud type fractional cover
+Frh  =  0.38   = /
+T0   =  270.   = Surface temperature first guess (K)
+ITF  =  1      = Iteration flag: (1) solves for surface T; (0) specifies T
